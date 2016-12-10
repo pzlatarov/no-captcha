@@ -1,6 +1,6 @@
 <?php
 
-namespace Anhskohbo\NoCaptcha\Facades;
+namespace Pzlatarov\NoCaptcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

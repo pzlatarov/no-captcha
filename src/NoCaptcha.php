@@ -1,6 +1,6 @@
 <?php
 
-namespace Anhskohbo\NoCaptcha;
+namespace Pzlatarov\NoCaptcha;
 
 use Symfony\Component\HttpFoundation\Request;
 use GuzzleHttp\Client;
@@ -41,6 +41,7 @@ class NoCaptcha
         $this->sitekey = $sitekey;
         $this->http = new Client([
             'timeout'  => 2.0,
+            'proxy' => env('HTTP_PROXY','')
         ]);
     }
 

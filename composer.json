@@ -1,12 +1,12 @@
 {
-    "name": "anhskohbo/no-captcha",
-    "description": "No CAPTCHA reCAPTCHA For Laravel.",
+    "name": "pzlatarov/no-captcha",
+    "description": "NoCaptcha with forward proxy support",
     "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel4", "laravel5"],
     "license": "MIT",
     "authors": [
         {
-            "name": "anhskohbo",
-            "email": "anhskohbo@gmail.com"
+            "name": "pzlatarov",
+            "email": "pzlatarov@gmail.com"
         }
     ],
     "require": {
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Anhskohbo\\NoCaptcha\\": "src/"
+            "Pzlatarov\\NoCaptcha\\": "src/"
         }
     }
 }
